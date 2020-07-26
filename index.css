@@ -1,0 +1,55 @@
+*{
+	box-sizing: border-box;
+}
+h1{
+	font-size: 35px;
+	text-align: center;
+	text-decoration: underline;
+	color: white;
+}
+body{
+	background: url("https://c4.wallpaperflare.com/wallpaper/1014/224/982/disease-flu-medical-virus-wallpaper-preview.jpg") no-repeat ;
+	background-size: cover;
+}
+section{
+	background-color:red;
+	border-color:black;
+	border-width: 5px;
+	margin-bottom: 10px;
+
+}
+div{
+	font-size: 25px;
+	float:right;
+	clear: right;
+	background-color: yellow;
+	color: black;
+	padding: 10px;
+	margin:5px;
+	border-width: 10px;
+}
+section>p{
+	position: relative;
+	color: white;
+	font-size: 20px;
+	font-style: italic;
+	padding:10px;
+	margin: 10px;
+}
+@media(min-width: 992px)
+{
+	.col-lg-4{
+		width:33%;
+		float: left;
+	}
+}
+@media(min-width: 768px) and (max-width: 992px)
+{
+	.col-mg-6{
+		width: 50%;
+		float: left;
+	}
+	.COVID{
+		width:100%;
+	}
+}
